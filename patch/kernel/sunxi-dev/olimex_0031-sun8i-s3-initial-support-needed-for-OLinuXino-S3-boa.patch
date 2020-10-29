@@ -15,14 +15,14 @@ diff --git a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
 index 5933ec4b8b2b..d7a1562af413 100644
 --- a/arch/arm/boot/dts/Makefile
 +++ b/arch/arm/boot/dts/Makefile
-@@ -1156,6 +1156,7 @@ dtb-$(CONFIG_MACH_SUN8I) += \
+@@ -1214,6 +1214,7 @@
  	sun8i-r16-parrot.dtb \
  	sun8i-r40-bananapi-m2-ultra.dtb \
  	sun8i-s3-lichee-zero-plus.dtb \
 +	sun8i-s3-olinuxino.dtb \
+ 	sun8i-s3-pinecube.dtb \
  	sun8i-t3-cqa3t-bv3.dtb \
  	sun8i-v3s-licheepi-zero.dtb \
- 	sun8i-v3s-licheepi-zero-dock.dtb \
 diff --git a/arch/arm/boot/dts/sun8i-s3-olinuxino.dts b/arch/arm/boot/dts/sun8i-s3-olinuxino.dts
 new file mode 100644
 index 000000000000..e06c7aaea2fa
